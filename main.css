@@ -7,7 +7,7 @@
 section {
     height: 100vh;
     overflow: hidden;
-    background-image: linear-gradient(to right, rgb(255, 121, 11), rgb(236, 194, 7));
+    background-image: linear-gradient(to right, rgb(175, 64, 0), rgb(255, 124, 36));
 }
 
 section .container {

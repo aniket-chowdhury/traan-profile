@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid blue; */
+}
+
+section {
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(to right, rgb(255, 121, 11), rgb(236, 194, 7));
+}
+
+section .container {
+    height: 100vh;
+}
+
+section .container .card {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 75vh;
+}
+
+section .container .card .row .col {
+    height: 75vh;
+}
+
+section .container .card .row .col.s4 {
+    border-right: 4px solid black;
+}
+
+section .container .card .row .col.s4 .section.one {
+    height: 30%;
+}
+
+section .container .card .row .col.s4 .section.one .image {
+    height: 150px;
+    width: 150px;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: black;
+}
+
+/* section .container .card .row .col.s4 .section.one .image img{
+} */
+
+section .container .card .row .col.s4 .section.two {
+    height: 60%;
+}
+
+
+section .container .card .row .col.s8 .section.one {
+    height: 40%;
+}
+
+section .container .card .row .col.s8 .section.two {
+    height: 70%;
+}
+
+section .container .card .row .col.s4 .section.two p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-box .image{
+    height:100px;
+    width: 100px;
+    margin: 10px;
+    background-color: black;
+}
